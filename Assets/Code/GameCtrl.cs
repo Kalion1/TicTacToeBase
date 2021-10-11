@@ -31,7 +31,6 @@ public class GameCtrl : MonoBehaviour
     }
 
     
-
     //Changement de joueur et Victoire
     // on attribue un int à chaque checkbox
     //Check ligne 1 => if (1,2,3) => victory

@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 35198154}
   - component: {fileID: 35198155}
   m_Layer: 5
-  m_Name: case (8)
+  m_Name: case2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -212,7 +212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5504a6b07e0deb7418e81942b5e3781a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentContent: 0
+  ID: 2
 --- !u!114 &35198155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -240,7 +240,7 @@ GameObject:
   - component: {fileID: 88462272}
   - component: {fileID: 88462273}
   m_Layer: 5
-  m_Name: case (7)
+  m_Name: case1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -315,7 +315,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5504a6b07e0deb7418e81942b5e3781a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentContent: 0
+  ID: 1
 --- !u!114 &88462273
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -343,7 +343,7 @@ GameObject:
   - component: {fileID: 160934676}
   - component: {fileID: 160934677}
   m_Layer: 5
-  m_Name: case (3)
+  m_Name: case9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -418,7 +418,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5504a6b07e0deb7418e81942b5e3781a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentContent: 0
+  ID: 9
 --- !u!114 &160934677
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1616,6 +1616,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerOneCheckbox: {fileID: 21300000, guid: 506cedd23943ab74cac095c9087fb7be, type: 3}
   playerTwoCheckbox: {fileID: 21300000, guid: ac4651e24d2aece4589977fe73e6f199, type: 3}
+  currentContent: 0
+  Victorious: 0
+  playerOneActions: 
+  playerTwoActions: 
 --- !u!1 &887275680
 GameObject:
   m_ObjectHideFlags: 0
@@ -1934,7 +1938,7 @@ GameObject:
   - component: {fileID: 1039935156}
   - component: {fileID: 1039935157}
   m_Layer: 5
-  m_Name: case (4)
+  m_Name: case8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2009,7 +2013,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5504a6b07e0deb7418e81942b5e3781a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentContent: 0
+  ID: 8
 --- !u!114 &1039935157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2037,7 +2041,7 @@ GameObject:
   - component: {fileID: 1119827355}
   - component: {fileID: 1119827356}
   m_Layer: 5
-  m_Name: case (2)
+  m_Name: case3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2112,7 +2116,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5504a6b07e0deb7418e81942b5e3781a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentContent: 0
+  ID: 3
 --- !u!114 &1119827356
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2426,7 +2430,7 @@ GameObject:
   - component: {fileID: 1350100617}
   - component: {fileID: 1350100618}
   m_Layer: 5
-  m_Name: case (6)
+  m_Name: case4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2501,7 +2505,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5504a6b07e0deb7418e81942b5e3781a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentContent: 0
+  ID: 4
 --- !u!114 &1350100618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2595,7 +2599,7 @@ GameObject:
   - component: {fileID: 1529485478}
   - component: {fileID: 1529485479}
   m_Layer: 5
-  m_Name: case (5)
+  m_Name: case7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2670,7 +2674,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5504a6b07e0deb7418e81942b5e3781a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentContent: 0
+  ID: 7
 --- !u!114 &1529485479
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2809,7 +2813,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5504a6b07e0deb7418e81942b5e3781a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentContent: 0
+  ID: 5
 --- !u!114 &1840586823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2837,7 +2841,7 @@ GameObject:
   - component: {fileID: 1850227241}
   - component: {fileID: 1850227242}
   m_Layer: 5
-  m_Name: case (1)
+  m_Name: case6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2912,7 +2916,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5504a6b07e0deb7418e81942b5e3781a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentContent: 0
+  ID: 6
 --- !u!114 &1850227242
 MonoBehaviour:
   m_ObjectHideFlags: 0
